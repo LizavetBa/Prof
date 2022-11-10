@@ -1,23 +1,27 @@
-let stats = document.querySelector('.status');
-let text = document.getElementById('text');
-let char = document.getElementById('char');
-let words = document.getElementById('words');
-let lines = document.getElementById('lines');
-let symbols = document.getElementById('symbols');
+export const ShipmentDate = {
+    id: 'c100-987-654',
+    name: 'MacBook Pro',
+    statuses:[
+        {
+            status: 'Created',
+            updatedDate: '08.10.2022',
+        },
+        {
+            status: 'Created',
+            updatedDate: '08.10.2022',
+        },
+        {
+            status: 'Created',
+            updatedDate: '08.10.2022',
+        },
+        {
+            status: 'Created',
+            updatedDate: '08.10.2022',
+        },
+        {
+            status: 'Created',
+            updatedDate: '08.10.2022',
+        },
 
-
-char.innerHTML = text.value.length + "Characters";
-words.innerHTML = text.value.trim().split(/\s+/).length + "Words";
-lines.innerHTML = text.value.split("\n").length + "Lines";
-symbols.innerHTML = text.value.split(/[!@#$%^&*+()_={}:;'"<>.,?/-]/).length + "Symbols";
-
-function count(){
-    if (text.value.length === 0){
-        stats.style.display = "none";
-    }
-    else {
-        stats.style.display = "Block";
-    }
+    ]
 }
-
-text.addEventListener("input", count);
