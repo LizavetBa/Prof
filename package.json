@@ -1,6 +1,28 @@
 {
+<<<<<<< HEAD
   "dependencies": {
     "package.json": "^2.0.1"
   },
   "type": "module"
+=======
+  "name": "prof",
+  "version": "1.0.0",
+  "description": "Profile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LizavetBa/Prof.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/LizavetBa/Prof/issues"
+  },
+  "homepage": "https://github.com/LizavetBa/Prof#readme"
+>>>>>>> 492d35dae3b3ebf7e2964a276be83056e992bfc3
 }
