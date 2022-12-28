@@ -1,4 +1,13 @@
 {
+<<<<<<< HEAD
+<<<<<<< HEAD
+  "dependencies": {
+    "package.json": "^2.0.1"
+  },
+  "type": "module"
+=======
+=======
+>>>>>>> 492d35dae3b3ebf7e2964a276be83056e992bfc3
   "name": "prof",
   "version": "1.0.0",
   "description": "Profile",
@@ -18,4 +27,8 @@
     "url": "https://github.com/LizavetBa/Prof/issues"
   },
   "homepage": "https://github.com/LizavetBa/Prof#readme"
+<<<<<<< HEAD
+>>>>>>> 492d35dae3b3ebf7e2964a276be83056e992bfc3
+=======
+>>>>>>> 492d35dae3b3ebf7e2964a276be83056e992bfc3
 }
