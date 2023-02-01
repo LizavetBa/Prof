@@ -1,34 +1,24 @@
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "dependencies": {
-    "package.json": "^2.0.1"
-  },
-  "type": "module"
-=======
-=======
->>>>>>> 492d35dae3b3ebf7e2964a276be83056e992bfc3
-  "name": "prof",
+  "name": "if",
   "version": "1.0.0",
-  "description": "Profile",
-  "main": "index.js",
+  "description": "",
+  "main": "src/script/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install",
+    "lint": "prettier --write . && eslint src/script/main.js",
+    "scriptname": "cmd"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LizavetBa/Prof.git"
+    "url": "git+https://github.com/LizavetBa/if-js.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
   "bugs": {
-    "url": "https://github.com/LizavetBa/Prof/issues"
+    "url": "https://github.com/LizavetBa/if-js/issues"
   },
-  "homepage": "https://github.com/LizavetBa/Prof#readme"
-<<<<<<< HEAD
->>>>>>> 492d35dae3b3ebf7e2964a276be83056e992bfc3
-=======
->>>>>>> 492d35dae3b3ebf7e2964a276be83056e992bfc3
-}
+  "homepage": "https://github.com/LizavetBa/if-js#readme"
+  }
+
