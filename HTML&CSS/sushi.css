@@ -1,34 +1,87 @@
 body, html {
-    background-color: #99C2F861;
     height: 100%;
+    margin: 0 auto;
 }
-.site-title{
+
+.header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.images {
+    max-width: 1440px;
+    width: 100%;
+    position: absolute;
+    background-image: url(img/full_colored.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
+
+#full_colored {
+    transform: translate(-120px, -70%);
+}
+
+#dots {
+    transform: translate(-102%, -70%);
+}
+
+#border {
+    transform: translate(-102%, -70%);
+}
+
+nav ul {
+    gap: 50px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.site-title {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 50px;
     font-family: 'Bebas Neue', cursive;
 }
-.lead{
+
+.lead {
     display: flex;
     align-items: center;
 
 }
-.container_text-center{
+
+.container_text-center {
     display: flex;
-    gap: 10px;
     justify-content: center;
 }
+
 h3, h4 {
     font-family: 'Merriweather', serif;
 
 }
 
-.header {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background: linear-gradient(#c6effe 78%, #99C2F861);
-}
 
 .product-img {
     width: 265px;
@@ -56,7 +109,7 @@ h3, h4 {
 
 .items {
     font-family: 'Merriweather', serif;
-    background: #f2ede7;
+    background: #fccfaa;
     border-radius: 8px;
     width: 120px;
     display: flex;
@@ -105,7 +158,7 @@ h3, h4 {
 }
 
 .price__weight {
-    color: #6c757d!important;
+    color: #6c757d !important;
     font-size: 80%;
     line-height: 1;
 }
@@ -139,7 +192,7 @@ h3, h4 {
     margin-bottom: 15px;
 }
 
-.cart-item__img  {
+.cart-item__img {
 
 }
 
@@ -162,7 +215,7 @@ h3, h4 {
 }
 
 .cart-item__weight {
-    color: #6c757d!important;
+    color: #6c757d !important;
     font-size: 80%;
     line-height: 1;
     margin-bottom: 15px;
